@@ -7,5 +7,7 @@ public class Main {
     nationalBank.addSubscriber(bank2);
     ((NationalBankPublisher)nationalBank).setCurrencyChanged(false);
     ((NationalBankPublisher)nationalBank).setKZRUCurrency(6);
+    ((NationalBankPublisher)nationalBank).setKZUSCurrency(400);
+    ((NationalBankPublisher)nationalBank).setRUUSDCurrency(65);
     }
 }

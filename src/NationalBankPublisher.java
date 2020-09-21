@@ -8,9 +8,9 @@ public class NationalBankPublisher implements Publisher{
     private double KZUSCurrency=300;
     private double RUUSDCurrency=60;
     private double KZRUCurrency=5;
-    private double lKZUSCurrency=300;
-    private double lRUUSDCurrency=60;
-    private double lKZRUCurrency=5;
+    private double lKZUSCurrency=0;
+    private double lRUUSDCurrency=0;
+    private double lKZRUCurrency=0;
 
     @Override
     public void addSubscriber(Subscriber b) {
